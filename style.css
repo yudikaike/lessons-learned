@@ -1,8 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
 
+footer {
+  margin: 8px 16px;
+}
+
+p , table {
+  margin: 32px 16px;
+}
+
+table , th , td {
+  border: 1px solid black;
+}
+
 #cabecalho {
   position: fixed;
+  margin: 8px 16px;
   top: 0;
+}
+
+#licoes_aprendidas , #licoes_a_aprender {
+  margin: 16px 32px;
+}
+
+#minha_foto {
+  margin: 72px 16px 0;
+  width: 200px;
 }
